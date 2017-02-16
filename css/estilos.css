@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Shrikhand');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background:#181818  url("http://freedesignfile.com/upload/2015/10/Grunge-textures-vintage-background-vectors-08.png");
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+  width: 100%;
+  height: 50px;
+  background-color: #2e2e2e;
+}
+
+nav ul{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  padding: 13px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a:hover{
+  background-color: cyan;
+  color: gray;
+  transition: all 0.25s linear;
+}
+
+nav li{
+  list-style: none;
+}
+
+.presentacion{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+img{
+  border-radius:50%;
+}
+.circle{
+  width: 245px;
+  height: 270px;
+  border: 3px solid cyan;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+#mi-nombre{
+  font-family: 'Shrikhand', cursive;
+  font-size: 40px;
+  font-weight: 100;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sobre-mi, .mis-experiencias, .contactame{
+  width: 100%;
+  min-height: 250px;
+  background-color: #FFF;
+  padding: 20px;
+}
+
+.sobre-mi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sobre-mi h2{
+  padding-top: 40px;
+}
+
+.mis-experiencias h2{
+  margin-top: 30px;
+}
+p{
+  text-indent: 25px;
+  margin-bottom: 10px;
+}
+.cuadro{
+  max-width: 900px;
+  margin: 0 30px;
+}
+.cuadro2{
+  width: 900px;
+  min-height: 200px;
+  margin: auto;
+  margin: 0 30px;
+}
+.mis-experiencias{
+  width: 100%;
+  min-height: 300px;
+  background-color: #303030;
+  padding: 50px;
+  color: white;
+}
+.contactame{
+  width: 100%;
+  min-height: 300px;
+  background-color: #181818;
+  padding: 70px;
+  color: white;
+}
+
+h3{
+  margin:20px;
+  margin-top: 40px;
+  color:cyan;
+}
+
+.mis-experiencias{
+  display:flex;
+  justify-content: center;
+}
+
+.listas{
+  display: flex;
+  justify-content: space-around;
+}
+
+.listas2{
+  margin: 10px 10px 50px;
+  margin-left: 30px;
+}
+
+ul{
+  margin-bottom: 20px;
+}
+
+#LI{
+  margin-top: 0;
+}
+
+.contactame{
+  display: flex;
+  justify-content: center;
+}
+
+.cuadro3{
+  width: 900px;
+  min-height: 200px;
+  margin: auto;
+  margin: 0 30px;
+}
+
+.box-contact{
+  width: 300px;
+  height: 275px;
+  margin: auto;
+  border: 2px solid gray;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+label {
+  display: inline-block;
+  width: 30px;
+  background-color: gray;
+  padding: 8px 0px 8px 15px;
+  margin-bottom: 20px;
+  border-radius: 4px 0px 0px 4px;
+  color: cyan;
+  
+}
+input{
+  width: 225px;
+  height: 45px;
+}
+
+input,textarea{
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+  text-indent: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+#label-uno,#label-dos{
+  position: relative;
+  left: 10px;
+}
+#label-tres{
+  position: relative;
+  left: 10px;
+  bottom: 48px;
+}
+.button-box{
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  color: cyan;
+  background-color: gray;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-box:hover{
+  background-color: cyan;
+  color: gray;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+footer{
+  width: 100%;
+  height:100px;
+  background-color: #181818;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.iCircle{
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #181818;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: cyan;
+}
+
+.iCircle:hover{
+  color: #181818;
+  background-color: cyan;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+h2,h3{
+  margin-bottom: 30px;
+}
+textarea{
+  max-width: 225px;
+  max-height: 75px;
+}
