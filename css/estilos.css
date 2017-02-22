@@ -46,7 +46,7 @@ nav li{
   display:flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50px;
+  margin: 150px 0px 250px 0px;
 }
 
 img{
@@ -72,7 +72,7 @@ img{
   margin-right: 20px;
 }
 
-.sobre-mi, .mis-experiencias, .contactame{
+.sobre-mi, .mis-practicas, .contactame{
   width: 100%;
   min-height: 250px;
   background-color: #FFF;
@@ -81,31 +81,33 @@ img{
 
 .sobre-mi{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  align-items:center;
 }
-.sobre-mi h2{
-  padding-top: 40px;
+.cuadro{
+  max-width: 800px;
+  height: 100px;
+  padding-bottom: 20px;
+}
+.cuadro p {
+  font-size: 20px;
 }
 
-.mis-experiencias h2{
+.mis-practicas h2{
   margin-top: 30px;
 }
 p{
   text-indent: 25px;
-  margin-bottom: 10px;
 }
-.cuadro{
-  max-width: 900px;
-  margin: 0 30px;
-}
+
 .cuadro2{
   width: 900px;
   min-height: 200px;
   margin: auto;
   margin: 0 30px;
+  position: relative;
 }
-.mis-experiencias{
+.mis-practicas{
   width: 100%;
   min-height: 300px;
   background-color: #303030;
@@ -126,7 +128,7 @@ h3{
   color:cyan;
 }
 
-.mis-experiencias{
+.mis-practicas{
   display:flex;
   justify-content: center;
 }
@@ -172,7 +174,7 @@ ul{
   background-color: black;
 }
 
-label {
+.contactame label {
   display: inline-block;
   width: 30px;
   background-color: gray;
@@ -180,7 +182,7 @@ label {
   margin-bottom: 20px;
   border-radius: 4px 0px 0px 4px;
   color: cyan;
-  
+
 }
 input{
   width: 225px;
@@ -255,4 +257,59 @@ h2,h3{
 textarea{
   max-width: 225px;
   max-height: 75px;
+}
+
+/*NUEVO*/
+h4{
+  padding: 6px;
+}
+.mis-practicas a{
+  text-decoration: none;
+  color: #fff;
+}
+.pract1{
+  max-width: 200px;
+  max-height: 20px;
+  display: flex;
+  padding: 5px;
+  position: relative;
+}
+.bigDot{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dotHover{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #9e9e9e;
+}
+.pract1:hover > .bigDot > .dotHover{
+  width: 20px;
+  height: 20px;
+  border: 2px solid cyan;
+  background-color: inherit;
+  transition: all 0.15s linear;
+}
+
+footer a{
+  text-decoration: none;
+}
+.mis-practicas h2{
+  font-size: 30px;
+}
+.mis-practicas h3{
+  font-size: 20px;
+}
+.mis-practicas h4{
+  font-size: 20px;
+}
+.mis-practicas h5{
+  font-size: 15px;
+  position: relative;
+  left: 4px;
+  top: 4px;
 }
